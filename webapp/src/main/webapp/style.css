@@ -1,135 +1,121 @@
-@import './variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-* {
-  box-sizing: border-box;
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-body {
-  background-color: #f0f2f5;
-  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+.flex-r ,.flex-c {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.flex-c{
+    flex-direction: column;
+}
+.flex-r{
+    flex-direction: row;
 }
 
-.container {
-  padding-top: 72px;
-  padding-bottom: 112px;
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 10px;
+    background: #E5E5E5;  
 }
 
-.main {
-  margin: 0 auto;
-  padding: 20px 0;
-  display: flex;
-  width: 980px;
+
+
+.login-text{
+    background-color: #F6F6F6;
+    max-width: 400px;
+    min-height: 500px;
+    border-radius: 10px;
+    padding: 10px 20px;
 }
 
-@media screen and (max-width: 960px) {
-  .main {
-    padding: 0 5px;
-    margin: 0 auto;
-    width: auto;
-  }
+.logo{
+    margin-bottom: 20px;
+}
+.logo span , .logo span i{
+    font-size: 25px;
+    color:#0d8aa7 ;
 }
 
-.box-left {
-  box-sizing: border-box;
-  padding: 54px 0 16px;
-  width: 580px;
-  margin-right: 32px;
+.login-text h1{
+    font-size: 25px;
+}
+.login-text p{
+    font-size: 15px;
+    color: #000000B2;
 }
 
-@media screen and (max-width: 960px) {
-  .box-left {
-    display: none;
-  }
+form{
+    align-items: flex-start !important;
+    width: 100%;
+    margin-top: 15px;
 }
 
-.box-left > h2 {
-  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-  font-size: 28px;
-  font-weight: normal;
-  line-height: 32px;
+.input-box{
+    margin: 10px 0px;
+    width: 100%;
 }
 
-.box-right {
-  width: 396px;
+.label{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 3px;
 }
 
-@media screen and (max-width: 960px) {
-  .box-right {
-    width: auto;
-    margin: 0 auto;
-  }
+.input{
+    background-color: #F6F6F6;
+    padding: 0px 5px;
+    border: 2px solid rgba(216, 216, 216, 1);
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: flex-start;
 }
 
-.card-form-login {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
-  border: none;
-  border-radius: 8px;
-  padding: 15px;
-  padding: 15px 15px 24px;
+input{
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    background-color: #F6F6F6;
+    flex: 1;
+}
+.input i{
+    color:rgba(0, 0, 0, 0.4);
 }
 
-.card {
-  height: 456px;
-  width: 396px;
-  margin: 40px 0 0;
+.check span{
+    color:#000000B2;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
 }
 
-@media screen and (max-width: 960px) {
-  .card {
-    width: auto;
-    margin: 0 auto;
-  }
+.btn{
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background: linear-gradient(122.33deg, #68bed1 30.62%, #1E94E9 100%);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: all 0.3s linear;
 }
 
-@media screen and (min-width: 960px) {
-  .mobile-logo {
-    display: none;
-  }
+.btn:hover{
+    transform: translateY(-2px);
 }
-
-.mobile-logo {
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 10px;
+.extra-line{
+    font-size: 15px;
+    font-weight: 600;
 }
-
-.input {
-  box-sizing: border-box;
-  font-size: 17px;
-  border: 1px solid #dddfe2;
-  border-radius: 6px;
-  padding: 14px 16px;
-  appearance: none;
-  width: 100%;
-}
-
-.input::-webkit-input-placeholder {
-  color: #878a91;
-}
-
-.input:focus::-webkit-input-placeholder {
-  color: #a8abb1;
-}
-
-.input:focus {
-  outline: none !important;
-  border-color: #4e9bf6;
-  -webkit-box-shadow: 0 0 2px 0 #4e9bf6;
-  box-shadow: 0 0 2px 0 #4e9bf6;
-}
-
-.forget-password {
-  margin-top: 16px;
-  font-size: 14px;
-}
-
-.line-slicer {
-  border-bottom: 1px solid #dadde1;
-  margin: 20px 16px;
-}
-
-.reg-page {
-  margin-top: 28px;
-  font-size: 14px;
+.extra-line a{
+    color: #0095B6;
 }
