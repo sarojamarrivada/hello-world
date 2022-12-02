@@ -72,7 +72,7 @@
             Back to Home
         </a>
         <span class="author">
-            Crafted with ❤️ by <a href="https://hizbe.dev" rel="noopener noreferrer" target="_blank">Muhammad
+            Crafted with ❤️ by <a href="https://hizbe.dev" rel="noopener noreferrer" target="_blank">Muhammad
                 Hizbullah</a>, © 2020
         </span>
         <a href="https://github.com/mazipan/login-page-css" rel="noopener noreferrer" target="_blank">
@@ -83,10 +83,3 @@
 </body>
 
 </html>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-St
