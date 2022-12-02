@@ -3,83 +3,62 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<title>Facebook Login Template | Login Page CSS</title>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="https://mazipan.github.io/login-page-css/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="https://mazipan.github.io/login-page-css/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://mazipan.github.io/login-page-css/favicon/favicon-16x16.png">
-	<link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json" />
+    <!-- link css  -->
+    <link rel="stylesheet" href="./style.css">
 
-	<meta name="msapplication-TileColor" content="#fdcb04" />
-	<meta name="theme-color" content="#fdcb04" />
-	<link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json">
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../shared/normalize.css">
-    <link rel="stylesheet" href="../shared/additional.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Login with us</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="main">
-            <div class="box-left">
-                <div class="image-logo">
-                    <img src="../assets/logo.png" style="height: 100px;">
+    <div class=" flex-r container">
+        <div class="flex-r login-wrapper">
+            <div class="login-text">
+                <div class="logo">
+                    <span><i class="fab fa-speakap"></i></span>
+                    <span>Coders</span>
                 </div>
-                <h2>Halaman login membantu Anda terhubung dengan website terkait yang Anda miliki akunnya.</h2>
-            </div>
-            <div class="box-right">
-                <div class="card">
-                    <div class="mobile-logo">
-                        <img src="../assets/logo.png" style="height: 50px;">
-                    </div>
-                    <div class="card-form-login">
-                        <div class="form-input">
-                            <div class="pb-6">
-                                <input type="text" name="" id="" class="input" placeholder="Email atau Nomor Telepon">
-                            </div>
-                            <div class="pt-6 pb-6">
-                                <input type="password" name="" id="" class="input" placeholder="Kata Sandi">
-                            </div>
-                        </div>
-                        <div class="mt-6">
-                            <button class="button w-full bg-blue text-white font-20">Login</button>
-                        </div>
-                        <div class="forget-password text-center">
-                            <a href="#" class="decoration-none hover-underline text-blue">Lupa Kata Sandi?</a>
-                        </div>
-                        <div class="line-slicer"></div>
-                        <div class="text-center">
-                            <button href="#" class="button bg-green text-white font-17 mt-6">Buat Akun
-                                Baru</button>
+                <h1>Sign Up</h1>
+                <p>It's not long before you embark on this journey! </p>
+
+                <form class="flex-c">
+                    <div class="input-box">
+                        <span class="label">E-mail</span>
+                        <div class=" flex-r input">
+                            <input type="text" placeholder="name@abc.com">
+                            <i class="fas fa-at"></i>
                         </div>
                     </div>
-                    <div class="reg-page text-center">
-                        <a href="#" class="font-bold decoration-none hover-underline text-black">Buat Hal Baru</a> untuk kenyamanan hidup yang lebih baik.
+                    
+                    <div class="input-box">
+                        <span class="label">Password</span>
+                        <div class="flex-r input">
+                            <input type="password" placeholder="8+ (a, A, 1, #)">
+                            <i class="fas fa-lock"></i>
+                        </div>
                     </div>
-                </div>
+
+                    <div class="check">
+                        <input type="checkbox" name="" id="">
+                        <span>I've read and agree with T&C</span>
+                    </div>
+
+                    <input class="btn" type="submit" value="Create an Account">
+                    <span class="extra-line">
+                        <span>Already have an account?</span>
+                        <a href="#">Sign In</a>
+                    </span>
+                </form>
+
             </div>
         </div>
-
-
     </div>
-
-
-    <!-- ADDITIONAL CODE -- start YOU MIGHT NOT NEEDED -->
-    <footer>
-        <a href="/login-page-css/">
-            Back to Home
-        </a>
-        <span class="author">
-            Crafted with ❤️ by <a href="https://hizbe.dev" rel="noopener noreferrer" target="_blank">Muhammad
-                Hizbullah</a>, © 2020
-        </span>
-        <a href="https://github.com/mazipan/login-page-css" rel="noopener noreferrer" target="_blank">
-            Github Repo
-        </a>
-    </footer>
-    <!-- ADDITIONAL CODE -- end YOU MIGHT NOT NEEDED -->
 </body>
 
 </html>
